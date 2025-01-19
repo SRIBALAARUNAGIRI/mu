@@ -1,0 +1,17 @@
+name: My GitHub Action
+
+on:
+  # You can set the event to 'push' or 'workflow_dispatch' for manual triggering
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step with the name containing your email address
+      - name: 23f3002987@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
